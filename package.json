@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-anti-recall",
   "description": "用于防止指定的群组或用户撤回消息，并将撤回的消息转发到其他群组或用户。",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
