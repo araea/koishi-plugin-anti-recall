@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-anti-recall",
-  "description": "",
-  "version": "0.0.1",
+  "description": "用于防止指定的群组或用户撤回消息，并将撤回的消息转发到其他群组或用户。",
+  "version": "0.0.7",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,11 +9,23 @@
     "dist"
   ],
   "license": "MIT",
+  "author": "Nawyjx <3373167460@qq.com>",
+  "homepage": "https://www.npmjs.com/package/koishi-plugin-anti-recall?activeTab=readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/araea/koishi-plugin-anti-recall.git"
+  },
   "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "recall",
+    "unrecall",
+    "antiRecall",
+    "anti-recall",
+    "撤回",
+    "防撤回"
   ],
   "peerDependencies": {
     "koishi": "^4.15.3"
